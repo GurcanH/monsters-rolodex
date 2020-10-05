@@ -31,6 +31,11 @@ class App extends Component {
 
     return (
       <div className="App">
+        <hop>
+          {["Evan", "Ben", "Maria", "Daniel"].map((name) => (
+            <span>{name}</span>
+          ))}
+        </hop>
         <h1>Monsters Rolodex</h1>
         <SearchBox
           placeholder="search monsters"
